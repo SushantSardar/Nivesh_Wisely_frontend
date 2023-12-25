@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ___________________________________________________________Global CSS for Niveshartha Project__________________________________ */
+.niveshartha_btn {
+  background-color: #259d90;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: white;
+}
+
+.niveshartha_btn_add {
+  background-color: #259d90;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  white-space: nowrap;
+}
+.niveshartha-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.save_btn {
+  background-color: #259d90;
+  border: 1px solid lightgray;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Customize the Success Button */
+.btn-success {
+  background-color: #259d90;
+  border: 1px solid lightgray;
+  color: #fff;
+  white-space: nowrap;
+}
+.btn-danger {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  color: black;
+}
+
+.cancel_btn {
+  /* background-color: #259D90;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white; */
+
+  background-color: transparent; /* Set the background color to transparent */
+  color: #000; /* Set the text color to black */
+  border: 1px solid lightgray; /* Add a black border for a visible button */
+  padding: 5px 10px; /* Adjust the padding as needed */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.black-button:hover {
+  /* background-color: #000; */
+  color: red;
+}
+
+.form-check-input:checked {
+  background-color: #259d90 !important;
+  border-color: #259d90 !important;
+}
+.form-container {
+  margin-left: 260px;
+}
+.form-align {
+  padding: 50px 125px;
+}
+.dashboard-card-header {
+  background-color: #259d90;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+}
+.dashboard-card {
+  border: #259d90 solid 1px;
+}
+.dashboard-cardbody {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1276px) {
+  .form-container {
+    margin-left: 235px;
+  }
+  .left-sidebar {
+    width: 225px;
+  }
+  .form-align {
+    padding: 20px 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left-sidebar {
+    width: 200px;
+  }
+  .user-table-container {
+    padding: 25px;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .form-container {
+    margin-left: 215px;
+  }
+  .niveshartha-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 320px;
+    padding-right: 40px;
+  }
+  .form-align {
+    padding: 10px 20px;
+  }
+}

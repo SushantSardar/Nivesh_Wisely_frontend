@@ -1,0 +1,26 @@
+.userProfile {
+  padding: 15px;
+}
+.userProfileBaseName {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+}
+.avatar-align {
+  display: flex;
+  justify-content: center;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  padding-left: 350px;
+}
+.homelayout-wrapper {
+  position: relative;
+}
